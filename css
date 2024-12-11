@@ -1,0 +1,63 @@
+/*  Etiqueta */
+
+h1 {
+  color: blueviolet;
+  text-align: center;
+}
+
+h2{
+  color: #5f0057;
+  p {
+    color: blueviolet;
+  }
+}
+
+/* Selector por clase */
+.colorearblueviolet {
+
+  color: #e2622b;
+
+  .cambiarFuente {
+    font-family: Helvetica, Serif;
+    font-size: 30px;
+  }
+
+  .borde {
+    border-style: dashed;
+    font-size: 25px;
+    color: black;
+    background: #7ffff4;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+}
+
+/* Selector por ID */
+#titulo{
+  color: rgba(255, 38, 0, 0.88);
+  text-align: right;
+  border-style: dotted;
+  padding: 60px;
+}
+
+#titulo:hover{
+  font-size: 35px;
+  color: #7300ff;
+
+}
+table, th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+
+
+
