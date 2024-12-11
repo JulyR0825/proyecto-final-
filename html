@@ -1,0 +1,197 @@
+<h1 id= "titulo" class=" colorearblueviolet borde">BIENVENIDO A MI APP GATUNA</h1>
+<h1><u>DESARROLLO DE APLICACIONES</u></h1>
+<h2 id="titulo:hover">SITIO WEB PARA LOS AMANTES DE LOS GATOS</h2>
+<h4><u>hola,{{title}}</u></h4>
+<h4><u>Edad {{edad }}</u></h4>
+<h1 style="background-color:Violet;">GATOS</h1>
+
+<input type="text">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+
+<button (click)="aumentaredad()">Aumentar la edad</button>
+<button (click)="reduciredad()"> reducir edad </button>
+<button (click)="CambiarNombre()"> Cambiar Nombre</button>
+<p class="colorearblueviolet">
+  <i>Gato, procedente del vocablo latino cattus, es un término que alude a un animal mamífero que
+  forma parte del conjunto de los félidos: aquellas especies carnívoras que presentan patas posteriores
+  con cuatro dedos y patas anteriores con cinco dedos; uñas retráctiles;hocico corto; y cabeza de
+    forma redondeada. Los gastos además son digitígrados ya que, al caminar, solamente apoyan sus dedos.</i>
+<br>
+  <br><small>Los gatos domésticos, sea cual sea su raza, son todos miembros de una misma especie, Felis silvestris catus, que
+  mantiene una relación con los humanos desde hace mucho tiempo. Los antiguos egipcios habrían sido los primeros en
+  domesticar gatos, hace ya <mark>4000 años</mark>, pero hay registros arqueológicos que sitúan a los gatos (o sus antepesados)
+  conviviendo con los humanos en Oriente Próximo y Europa miles de años antes. Probablemente, los gatos salvajes
+  se vieron atraídos a las comunidades humanas por la abundancia de roedores que había en ellas, y su habilidad
+  para cazarlos les hizo ganarse la simpatía de sus habitantes.</small>
+<br>
+  <br><ins>Los primeros egipcios adoraban a una diosa con figura de gato e incluso momificaban a sus mascotas preferidas para
+  que les acompañaran en su viaje al otro mundo...¡acompañados de ratones también momificados! Posteriormente,
+  civilizaciones de todo el mundo adoptaron a los gatos como animales de compañía.</ins>
+  <br>
+</p>
+<hr>
+<br><strong>COMPORTAMIENTO DEL GATO DOMESTICO</strong>
+<h1 style="border:2px solid #0cdfce;">Imagenes de gatos</h1>
+
+<a href="https://download.macupdate.com/app/mac/64347/drawio-desktop/download">
+  <img  width="350px" height="220px" src="https://th.bing.com/th/id/OIP.K452PKyJLzYAqcOejAgHmAHaGB?rs=1&pid=ImgDetMain" alt="seis gatitos">
+</a>
+<br>
+
+<table>
+  <tr>
+    <th>Tienes Gatos</th>
+    <th>Te gustan los gatos</th>
+    <th>AdoptarÍas a un gato </th>
+  </tr>
+  <tr>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+  </tr>
+</table>
+
+<ul>
+  <li class="colorearblueviolet cambiarFuente"><a href="http://minatitlan.tecnm.mx/"><strong>Tec Mina</strong></a></li>
+  <li class="cambiarFuente"><a href="https://itesco.edu.mx/Web/inicio/"> <i>ITESCO</i></a></li>
+  <li class="borde"><a href="https://www.uv.mx/">UV</a></li>
+</ul>
+<ol>
+  <h3>Lista de nombres</h3>
+  <li class="colorearblueviolet cambiarFuente">Jeny</li>
+  <li class="borde"><u>Alicia</u></li>
+  <li class="cambiarFuente "><strong>Amelia</strong></li>
+  <li><i>Ramses</i></li>
+</ol>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CSS Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Style the header */
+    header {
+      background-color: #7ffff4;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: #131212;
+    }
+
+    /* Create two columns/boxes that floats next to each other */
+    nav {
+      float: left;
+      width: 30%;
+      height: 300px; /* only for demonstration, should be removed */
+      background: #ffffff;
+      padding: 20px;
+    }
+
+    /* Style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      background-color: #ffffff;
+      height: 500px; /* only for demonstration, should be removed */
+    }
+
+    /* Clear floats after the columns */
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Style the footer */
+    footer {
+      background-color: #7ffff4;
+      padding: 10px;
+      text-align: center;
+      color: #131212;
+    }
+
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+    @media (max-width: 600px) {
+      nav, article {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<h2>GATOS</h2>
+<hr>
+<p><i>Los gatos son una de las mascotas que más aceptación tienen entre las personas, junto con los perros. Estos felinos tienen
+  una forma de ser muy diferente de la de estos caninos, algo que les hace ser muy especiales, tanto por su actitud, como también
+  por sus características que en breve te explicaremos.</i></p>
+
+<header>Características de los gatos</header>
+
+<section>
+  <nav>
+    <a href="https://download.macupdate.com/app/mac/64347/drawio-desktop/download">
+      <img  width="350px" height="220px" src="https://www.anipedia.net/imagenes/gatos-800x375.jpg">
+    </a>
+    <a href="https://download.macupdate.com/app/mac/64347/drawio-desktop/download">
+      <img  width="350px" height="220px" src="https://www.anipedia.net/imagenes/caracteristicas-generales-de-los-gatos.jpg">
+    </a>
+  </nav>
+
+  <article>
+    <h1>LOS GATOS:</h1>
+    <p>Los gatos llevan junto al hombre miles de años, adaptándose a nuestra forma de vida y conviviendo con
+      nosotros con el fin de recibir los cuidados necesarios. A diferencia de otros grandes felinos, estos, dado su
+      tamaño, empezaron a empatizar con los humanos debido a que nuestros ancestros lo tenían como parte importante
+      de su sociedad, llegando incluso, en época del Antiguo Egipto, a considerarse antiguos dioses que se habían
+      transformado en estos animales astutos y solitarios.</p>
+
+      <p>Los gatos tienen una gran fama de animales que necesitan <strong>disfrutar de su independencia</strong>
+      , a diferencia de otras mascotas como los perros, estos pequeños felinos van a hacer su vida con tranquilidad,
+      aunque cuando requiere de cariños y de atención va a buscar a la persona que se encuentra con él para que lo
+      rasque o juegue. A pesar de esta fama, también necesitan el contacto con sus dueños, o como muchos afirman,
+      con sus personas de compañía, ya que se afirma que un gato no tiene dueño, sino que él es su propio dueño,
+      mientras que la persona, es su mascota.</p>
+    <hr>
+      <p><i>La afirmación de que son muy inteligentes también es cierta, ya que si quieren conseguir algo, ya sea la
+      atención de la persona o comida u algún objeto que no está a su alcance, trazará un plan mental para conseguir
+        llegar al lugar que desea y en la mayoría de los casos lo consigue.</i>
+    </p>
+    <p><ins>Los gatos, al igual que el resto de felinos tienen unas garras muy afiladas pero que son retráctiles, esto
+      quiere decir que se encuentran escondidas en sus patas y que solo va a sacar cuando va a cazar o
+      quiere agarrarse a algo.</ins></p>
+    <p>Físicamente tienen un cuerpo recubierto de pelo, que variará la longitud según la especie de la que hablemos.
+      Tienen unos ojos penetrantes y unos <small>colmillos muy afilados</small> que si se encuentran en estado salvaje, van a
+      desgarrar a su presa para comérsela mejor. Tienen una cola larga que va a ayudarles a mantener el equilibrio
+      tanto si van andando, como si van corriendo o saltando.</p>
+
+  </article>
+</section>
+
+<footer>
+  <p>SOBRE ELLOS</p>
+</footer>
+
+</body>
+</html>
+
+
